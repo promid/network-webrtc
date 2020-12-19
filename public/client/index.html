@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Webrtc聊天室</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="chat">
+    <div class="msgs" id="msgs"></div>
+    <input type="file" id="fileIpt" class="fileIpt">
+    <button id="sendFileBtn" class="sendFileBtn">发送文件</button>
+    <input type="text" id="msgIpt" class="msgIpt" title="消息">
+    <button id="sendBtn" class="sendBtn">发送</button>
+</div>
+<div id="videos">
+    <video id="me" autoplay></video>
+</div>
+<div id="files">
+</div>
+<div id="vueapp">
+    <div id= "control-button">
+        <button id="record">start</button>
+        <input type="text" id="otherVideoIdNum"/>
+        <button id="record-other">start-other</button>
+        <button id="save" disabled>保存</button>
+        <button id="test1">全员广播</button>
+        <button id="test2">服务器推送</button>
+    </div>
+</div>   
+<script src="js/SkyRTC-client.js"></script>
+<script src="js/conn_enhance.js"></script>
+<script src="js/conn.js"></script>
+<script src="js/fileSaver.js"></script>
+</body>
+</html>

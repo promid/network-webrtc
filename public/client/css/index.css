@@ -1,0 +1,120 @@
+html, body {
+    width: 99%;
+    height: 99%;
+    margin: 1;
+    padding: 1;
+    background-color: #929292;
+}
+
+#videos {
+    position: absolute;
+    left: 26%;
+    top: 1%;
+    height: 65%;
+    right: 1%;
+    overflow: auto;
+    border: 2px solid red;
+}
+
+#videos video {
+    border-radius: 1%;
+    left: 2%;
+    top: 2%;
+    bottom: 2%;
+    right: 2%;
+    display: inline-block;
+    width: 24%;
+    border: 1px solid green;
+}
+
+#chat {
+    position:absolute;
+    left: 1%;
+    top: 1%;
+    bottom: 1%;
+    width: 24%;
+    border: 2px solid red;
+    background-color:white;
+}
+#chat .msgs {
+    position:absolute;
+    left: 1%;
+    top: 1%;
+    right: 1%;
+    height: 88%;
+    border: 1px solid green;
+}
+#chat .msgIpt {
+    position:absolute;
+    left: 1%;
+    width: 70%;
+    bottom: 0.2%;
+    height: 4%;
+    border: 1px solid green;
+}
+#chat .fileIpt {
+    position:absolute;
+    left: 1%;
+    bottom: 5%;
+    width: 71%;
+    height: 4%;
+    border: 1px solid green;
+}
+
+#chat .sendBtn{
+    position:absolute;
+    left: 73%;
+    width: 26%;
+    bottom: 0.2%;
+    height: 4.6%;
+    border: 1px solid green;
+}
+
+#chat .sendFileBtn {
+    position:absolute;
+    left: 73%;
+    bottom: 5%;
+    height: 4.3%;
+    width: 26%;
+    border: 1px solid green;
+}
+
+#chat .msgs p {
+    margin: 0.3em 0;
+}
+
+#files {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+}
+
+#files .name {
+}
+
+#files .percent {
+    font-weight: bold;
+    text-decoration: none
+}
+
+#vueapp {
+    position: absolute;
+    left: 26%;
+    height: 33%;
+    bottom: 1%;
+    right: 1%;
+    overflow: auto;
+    border: 2px solid red;
+    background: white;
+}
+
+#control-button{
+    position: absolute;
+    left: 1%;
+    top: 5%;
+    bottom: 2%;
+    width: 30%;
+    overflow: auto;
+    border: 1px solid green;
+}
